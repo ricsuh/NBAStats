@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: HelveticaNeue-Thin, Helvetica, Arial, sans-serif;
+}
+
+.main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* ----- Navbar ----- */
+.navbar, .navbar-light {
+    background-color: #0255A3;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* ----- Footer ----- */
+.footer {
+    clear: both;
+    bottom:0;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.link, .link:hover {
+    color: black;
+}
+
+/* ----- Input & Search ----- */
+.search {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+#input, #submit {
+    margin: 5px;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.dropdown-toggle {
+    background-color: #0255A3;
+    color: white;
+}
+
+.btn-outline-dark {
+    font-weight: bold;
+}
+
+.btn-outline-dark:hover {
+    background-color: #0255A3;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+
+/* ----- Player Profile ----- */
+.profile {
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------------------*/
+
+/* Mobile Styles */
+@media only screen and (max-width: 650px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 651px) and (max-width: 900px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 901px) {
+
+}
