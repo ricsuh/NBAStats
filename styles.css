@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: HelveticaNeue-Thin, Helvetica, Arial, sans-serif;
+    /* background-color: #D02A32; */
 }
 
 .main {
@@ -31,8 +32,8 @@
     color: black;
 }
 
-/* ----- Input & Search ----- */
-.search {
+/* ----- Select Player ----- */
+/* .search {
     display: flex;
     align-items: center;
     margin: 30px;
@@ -40,10 +41,11 @@
 
 #input, #submit {
     margin: 5px;
-}
+} */
 
 .dropdown {
     text-align: center;
+    margin: 30px auto;
 }
 
 .dropdown-toggle {
@@ -70,23 +72,57 @@
 /* ----- Player Profile ----- */
 .profile {
     margin: 30px auto;
+    padding: 10px;
     text-align: center;
+    max-width: 80%;
 }
 
+.profile h3 {
+    font-weight: bold;
+}
+
+.table {
+    margin: auto;
+    border: 5px solid #0255A3;
+    padding: 20px;
+}
+
+.table-hover th {
+    text-align: left;
+}
+
+#playerPoints, #playerRebounds, #playerAssists {
+    height: 400px;
+}
 
 /* ------------------------------------------------------------------*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 650px) {
+    #selectedPlayer {
+        margin: 5px;
+    }
 
+    .profile {
+        margin: auto;
+        max-width: 95%;
+    }
+
+    #playerPoints, #playerRebounds, #playerAssists {
+        height: 350px;
+    }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 651px) and (max-width: 900px) {
-
+    .profile {
+        max-width: 80%;
+    }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 901px) {
-
+    .table {
+        max-width: 60%;
+    }
 }
